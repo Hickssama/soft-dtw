@@ -8,7 +8,7 @@ CYTHONSRC= $(wildcard sdtw/*.pyx)
 CSRC= $(CYTHONSRC:.pyx=.c)
 
 inplace:
-	$(PYTHON) setup.py build_ext -i
+	$(PYTHON) soft-dtw/setup.py build_ext -i
 
 all: cython inplace
 
