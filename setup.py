@@ -14,7 +14,7 @@ except ImportError:
 
 DISTNAME = 'soft-dtw'
 DESCRIPTION = "Python implementation of soft-DTW"
-LONG_DESCRIPTION = open('README.rst').read()
+LONG_DESCRIPTION = open('soft-dtw/README.rst').read()
 MAINTAINER = 'Mathieu Blondel'
 MAINTAINER_EMAIL = ''
 URL = 'https://github.com/mblondel/soft-dtw/'
